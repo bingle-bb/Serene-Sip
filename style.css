@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0e2c5;
+}
+.header-font {
+  font-family: "Playfair Display SC", serif;
+}
+.body-font {
+  font-family: "Lato", serif;
+}
+.bg-primary {
+  background-color: #f0e2c5;
+}
+.bg-secondary {
+  background-color: #49281a;
+}
+.text-primary {
+  color: #f0e2c5;
+}
+.text-secondary {
+  color: #49281a;
+}
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  width: 280px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: blanchedalmond;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+.card-img-top {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.card-title {
+  margin: 10px;
+}
+.card-text {
+  line-height: 1.5;
+}
+.price {
+  font-weight: bold;
+  font-style: italic;
+}
+.btn {
+  display: block;
+  background-color: #49281a;
+  color: #f0e2c5;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+/* header section  */
+header h1 {
+  font-size: 3rem;
+}
+header p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+header a {
+  padding: 10px 30px;
+  border-radius: 6px;
+  color: #f0e2c5;
+  text-decoration: none;
+}
+nav {
+  padding: 30px 0;
+  background-color: #49281a;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+nav a {
+  color: #f0e2c5;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 8px;
+}
+nav a:hover {
+  border-bottom: 2px solid #f0e2c5;
+}
+.container {
+  width: 200px;
+  height: 150px;
+  margin: 20px auto;
+  position: relative;
+  /* background : color image repeat attachment position */
+}
+.bg-small {
+  position: absolute;
+  left: 200px;
+  background-image: url(images/bg-img3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg-large {
+  position: absolute;
+  right: 200px;
+  background-image: url(images/bg-img1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* overmenu section */
+#ourmenu,
+#aboutus,
+#contactus {
+  padding: 10px;
+}
+#ourmenu h2,
+#aboutus h2,
+#contactus h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem;
+  color: #49281a;
+}
+#aboutus p,
+#contactus p {
+  padding: 10px 0;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: "Lato", serif;
+}
+/* contactus section */
+contactus form {
+  font-family: "Lato", serif;
+  width: 70%;
+}
+form div {
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+.form-label {
+  width: 30%;
+  display: inline-block;
+}
+.form-control {
+  width: 60%;
+  border: none;
+  outline: none;
+  background-color: #f0e2c5;
+  border-bottom: 1px dotted #49281a;
+}
+.but {
+  width: 200px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 25px 0;
+  font-family: "Lato", serif;
+}

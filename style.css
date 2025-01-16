@@ -28,10 +28,11 @@ body {
 .text-secondary {
   color: #49281a;
 }
+/* card section */
 .card {
   border: 1px solid black;
   padding: 10px;
-  width: 280px;
+  width: 200px;
   margin: 50px auto;
   text-align: center;
   background-color: blanchedalmond;
@@ -41,6 +42,7 @@ body {
 .card-img-top {
   max-width: 100%;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 .card-title {
   margin: 10px;
@@ -67,11 +69,19 @@ body {
   background-color: #f0e2c5;
   color: #49281a;
 }
+/* header section */
 header {
+  display: block;
   text-align: center;
-  padding: 50px 0;
+  margin: 50px auto;
+  padding: 10px;
+  height: 100%;
+  width: auto;
+  background: url(images/bg-img3.png) top left no-repeat,
+    url(images/bg-img1.png) top right no-repeat;
+  background-size: contain, contain;
 }
-/* header section  */
+
 header h1 {
   font-size: 3rem;
 }
@@ -111,14 +121,14 @@ nav a:hover {
 .bg-small {
   position: absolute;
   left: 200px;
-  background-image: url(images/bg-img3.png);
+  background-image: url(images/Bagel\ with\ Cream\ Cheese.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-large {
   position: absolute;
   right: 200px;
-  background-image: url(images/bg-img1.png);
+  background-image: url(images/Bagel\ with\ Cream\ Cheese.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }

@@ -30,14 +30,13 @@ body {
 }
 /* card section */
 .card {
-  border: 1px solid black;
+  border: 1px solid #000;
+  width: 250px;
   padding: 10px;
-  width: 200px;
-  margin: 50px auto;
   text-align: center;
-  background-color: blanchedalmond;
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
 }
 .card-img-top {
   max-width: 100%;
@@ -69,6 +68,7 @@ body {
   background-color: #f0e2c5;
   color: #49281a;
 }
+
 /* header section */
 header {
   display: block;
@@ -94,6 +94,8 @@ header a {
   border-radius: 6px;
   color: #f0e2c5;
   text-decoration: none;
+
+  font-family: "Lato", sans-serif;
 }
 nav {
   padding: 30px 0;
@@ -107,6 +109,7 @@ nav a {
   text-decoration: none;
   margin-right: 20px;
   padding: 8px;
+  font-family: "Lato", sans-serif;
 }
 nav a:hover {
   border-bottom: 2px solid #f0e2c5;
@@ -133,6 +136,9 @@ nav a:hover {
   background-size: contain;
 }
 /* over-menu section */
+.menu-cards {
+  text-align: center;
+}
 #our-menu,
 #about-us,
 #contact-us {
@@ -142,15 +148,25 @@ nav a:hover {
 #about-us h2,
 #contact-us h2 {
   font-family: "Playfair Display SC", serif;
-  font-size: 2rem;
+  font-weight: 700;
+  font-style: normal;
   color: #49281a;
+  font-size: 40px;
+}
+#our-menu h3 {
+  font-family: "Lato", sans-serif;
+  padding: 10px 0 20px 0;
+  font-size: 1.5rem;
 }
 #about-us p,
 #contact-us p {
   padding: 10px 0;
   text-align: justify;
   line-height: 1.5;
-  font-family: "Lato", serif;
+  font-family: "Lato", sans-serif;
+}
+#our-menu p {
+  line-height: 1.5;
 }
 /* contact-us section */
 contact-us form {
@@ -164,6 +180,8 @@ contact-us form {
 #contact-us label {
   width: 30%;
   display: inline-block;
+
+  font-family: "Lato", sans-serif;
 }
 .form-control {
   width: 60%;

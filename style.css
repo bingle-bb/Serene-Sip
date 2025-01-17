@@ -76,9 +76,9 @@ header {
   margin: 50px auto;
   padding: 10px;
   height: 100%;
-  width: auto;
-  background: url(images/bg-img3.png) top left no-repeat,
-    url(images/bg-img1.png) top right no-repeat;
+  width: 90%;
+  background: url(images/bg-img1.png) top left no-repeat,
+    url(images/bg-img2.png) top right no-repeat;
   background-size: contain, contain;
 }
 
@@ -98,11 +98,11 @@ header a {
   font-family: "Lato", sans-serif;
 }
 nav {
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: #49281a;
   text-align: center;
   position: sticky;
-  top: 0px;
+  top: 0;
 }
 nav a {
   color: #f0e2c5;
@@ -135,6 +135,9 @@ nav a:hover {
   background-repeat: no-repeat;
   background-size: contain;
 }
+section {
+  margin-left: 20px;
+}
 /* over-menu section */
 .menu-cards {
   text-align: center;
@@ -142,7 +145,7 @@ nav a:hover {
 #our-menu,
 #about-us,
 #contact-us {
-  padding: 10px;
+  padding: 45px;
 }
 #our-menu h2,
 #about-us h2,
@@ -155,7 +158,7 @@ nav a:hover {
 }
 #our-menu h3 {
   font-family: "Lato", sans-serif;
-  padding: 10px 0 20px 0;
+  padding: 40px 0 30px 0;
   font-size: 1.5rem;
 }
 #about-us p,
@@ -188,7 +191,7 @@ contact-us form {
   border: none;
   outline: none;
   background-color: #f0e2c5;
-  border-bottom: 1px dotted #49281a;
+  border-bottom: 1px solid #49281a;
 }
 
 .but {
@@ -204,4 +207,23 @@ footer {
   text-align: center;
   padding: 25px 0;
   font-family: "Lato", serif;
+}
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.to-top:hover {
+  color: #6d4534; /* Change color on hover */
 }

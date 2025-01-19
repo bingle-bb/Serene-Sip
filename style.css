@@ -18,6 +18,7 @@ body {
   display: inline-block;
   background-color: #49281a;
   color: blanchedalmond;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 5px;
@@ -83,7 +84,7 @@ header {
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 header p {
   font-size: 1.2rem;
@@ -142,10 +143,12 @@ section {
 .menu-cards {
   text-align: center;
 }
-#our-menu,
+#our-menu {
+  padding: 50px;
+}
 #about-us,
 #contact-us {
-  padding: 45px;
+  padding: 30px;
 }
 #our-menu h2,
 #about-us h2,
@@ -154,11 +157,11 @@ section {
   font-weight: 700;
   font-style: normal;
   color: #49281a;
-  font-size: 40px;
+  font-size: 3rem;
 }
 #our-menu h3 {
   font-family: "Lato", sans-serif;
-  padding: 40px 0 30px 0;
+  padding: 20px 0 40px 0;
   font-size: 1.5rem;
 }
 #about-us p,

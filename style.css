@@ -13,6 +13,23 @@ body {
 .body-font {
   font-family: "Lato", serif;
 }
+.btn-explore {
+  position: relative;
+  opacity: 0;
+  animation: fadeInCenter 1.5s ease forwards;
+}
+
+@keyframes fadeInCenter {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .btn-explore,
 .btn-send {
   display: inline-block;
@@ -98,6 +115,7 @@ header a {
 
   font-family: "Lato", sans-serif;
 }
+
 nav {
   padding: 20px 0;
   background-color: #49281a;

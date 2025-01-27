@@ -42,6 +42,7 @@ body {
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 5px;
+  border: 2px solid #49281a;
 }
 .btn-send {
   margin-left: 400px;
@@ -84,6 +85,7 @@ body {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
+  border: 2px solid #49281a;
 }
 .btn-explore:hover,
 .btn:hover,
